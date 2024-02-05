@@ -67,7 +67,7 @@ export default function Skills() {
 
     <Card sx={{ maxWidth: 345, backgroundColor: 'black', border: '1px solid #B76E79' }}>
       <CardMedia
-        component={() => <Icon  icon="logos:nodejs-icon"  className="text-9xl text-efd09e p-2" />}
+        component={() => <Icon  icon="logos:nodejs-icon"  className="text-9xl text-efd09e p-2 mx-auto" />}
         alt="icon"
         height="140"
         sx={{ backgroundColor: '#1E1E1E' }}  // Set background color inline for CardMedia

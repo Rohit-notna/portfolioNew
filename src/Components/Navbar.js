@@ -64,7 +64,7 @@ export default function Navbar() {
          
 
           <div className=' ml-44 pr-8 pt-2  md:hidden lg:hidden lg:pb-16'>
-           <button className="md:text-2xl lg:text-2xl p-2 text-xl   bg-fuchsia-950 rounded-md" onClick={handleChange}>
+           <button className="md:text-2xl lg:text-2xl p-2 text-xl   bg-b76e79 rounded-md" onClick={handleChange}>
               {icon}
             </button>
             {showDropdown && (
