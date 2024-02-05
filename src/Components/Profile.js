@@ -23,7 +23,7 @@ export default function Profile() {
         <h1 className='md:pt-5 md:text-5xl text-xl font-extrabold mx-auto text-center '>Hi I'm</h1>
         <h1 className='md:pt-7 md:text-5xl text-xl font-extrabold mx-auto text-center text-b76e79' >Rohit Notna</h1>
         <h3 className='md:pt-7 md:text-5xl text-xl font-extrabold mx-auto text-center'><Write/></h3>
-        <div className='flex justify-center items-center mt-9  text-center'>
+        <div className='flex justify-center items-center mt-9  text-center md:p-0 p-4'>
           <Stack spacing={2} direction="row">
             <Button variant="outlined" className='mx-auto' style={{ color: '#efd09e', borderColor: '#b76e79' }}><a href="https://github.com/Rohit-notna" target="_blank" rel="noopener noreferrer" className='no-underline '> Github</a></Button>
             <Button variant="outlined" style={{ color: '#efd09e', borderColor: '#b76e79' }} onClick={handleNavigate}>Resume</Button>

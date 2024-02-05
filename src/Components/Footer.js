@@ -12,13 +12,16 @@ export default function Footer() {
 
         <div className='flex justify-center space-x-4 pt-2 pb-8'>
           <span>
-            <Icon icon="skill-icons:instagram"  className='lg:text-4xl md:text-2xl text-lg mr-6'/>
+          <a href="https://www.instagram.com/_its_sabu7_/?next=%2F" target="_blank" rel="noopener noreferrer" className='no-underline '>
+            <Icon icon="skill-icons:instagram"  className='lg:text-4xl md:text-2xl text-lg mr-6'/></a>
           </span>
           <span>
-            <Icon icon="devicon:linkedin" className='lg:text-4xl md:text-2xl text-lg mr-6' />
+          <a href="https://www.linkedin.com/in/rohit-notna-1b38a4216/" target="_blank" rel="noopener noreferrer" className='no-underline '>
+            <Icon icon="devicon:linkedin" className='lg:text-4xl md:text-2xl text-lg mr-6' /></a>
           </span>
           <span>
-          <Icon icon="bi:github" className='lg:text-4xl md:text-2xl text-lg mr-6 bg-white'/>
+          <a href="https://github.com/Rohit-notna" target="_blank" rel="noopener noreferrer" className='no-underline '>
+          <Icon icon="bi:github" className='lg:text-4xl md:text-2xl text-lg mr-6 bg-white'/></a>
           </span>
         </div>
 
