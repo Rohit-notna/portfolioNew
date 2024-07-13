@@ -30,7 +30,7 @@ function About() {
      <Link to="https://github.com/Rohit-notna">  <motion.button initial={{ x:-50,opaction:0 }} 
           whileInView={{ x:0,opacity:1}} 
           transition={{ duration: 1, }} className='px-3 py-1.5 flex gap-2 items-center rounded-xl outline outline-2 mt-10 border-SHADE'>Github</motion.button></Link>
-    <Link to="https://in.docs.wps.com/l/sIDyRjrVL86PSsgY?sa=cl&v=v2"> <motion.button initial={{ x:-50,opaction:0 }} 
+    <Link to="https://in.docs.wps.com/p/89315631900830"> <motion.button initial={{ x:-50,opaction:0 }} 
           whileInView={{ x:0,opacity:1}} 
           transition={{ duration: 1, }} className='px-3 py-1.5 flex gap-2 items-center rounded-xl outline outline-2 mt-10 border-SHADE'>Resume</motion.button></Link>  
               </div>
@@ -71,6 +71,14 @@ Java, Javascript.</p>
        
       </div>
     </section>
+    <section id="pricing" aria-label="Pricing" className="bg-black1 pb-10 sm:py-32">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl md:text-center">
+            <p className="text-base text-grey1 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">At AJ, we are guided by a set of core values that shape everything we do, from exquisite designing, exceptional quality, and artistry in every detail. Immerse yourself, where every detail is thoughtfully considered & expertly executed. From intricate filigree work to mesmerizing gemstone settings, our pieces are a testament to craftsmanship & creativity. At AJ, our journey is just beginning.</p>
+            <p className=" text-grey1 mt-3   sm:mt-5 text-base sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Join us as we continue to push the boundaries of creativity, craftsmanship & beauty one exquisite piece at a time.</p>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
